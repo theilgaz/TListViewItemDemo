@@ -1,0 +1,40 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Main Form'
+  ClientHeight = 709
+  ClientWidth = 910
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TListItemAppearance'
+    ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Bottom
+    Position.Y = 144.000000000000000000
+    Size.Width = 910.000000000000000000
+    Size.Height = 565.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnItemClick = ListView1ItemClick
+  end
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 10.000000000000000000
+    Size.Width = 890.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    Text = 'Label1'
+  end
+end
