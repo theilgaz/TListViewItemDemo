@@ -9,6 +9,6 @@ The TListView.Selected property still returns a FMX.ListView.Types.TListItem as 
 
 # TListViewItemDemo (in Turkish)
 
-Rad Studio 10 Seattle ile birlikte gelen yenilikler arasında birçok FireMonkey komponenti yer alıyor. 
+Rad Studio 10 Seattle ile birlikte gelen yenilikler birçok FireMonkey komponentini de barındırıyor. 
 
 TCustomListView kullanan birçok kullanıcı artık farklı sınıflar ve unit'ler kullanmak durumunda. TListItem.Selected özelliği önceki sürümlerdeki gibi çalışmaya devam ediyor fakat artık kendine has Text, Detail, ButtonText, Index özelliklerini barındırmıyor. Bu özellikleri kullanmak için Appearances.TListViewItem sınıfından referans alıp, cast işlemi uygulamamız gerekiyor.
